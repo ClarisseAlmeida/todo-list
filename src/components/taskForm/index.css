@@ -1,0 +1,6 @@
+@media (min-width: 1024px) {
+  .taskForm {
+    display: flex;
+    justify-content: space-between;
+  }
+}

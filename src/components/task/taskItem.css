@@ -1,0 +1,47 @@
+.taskItem {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 24px;
+  justify-content: space-between;
+}
+
+.taskItem-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.taskItem-wrapper--buttons {
+  flex-shrink: 0;
+}
+
+.taskItem-text {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 12px 16px;
+  width: 100%;
+  border: 1px solid transparent;
+  color: #212121;
+  width: 20ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.taskItem-text--completed {
+  text-decoration: line-through;
+  color: #919191;
+}
+
+@media (min-width: 768px) {
+  .taskItem-text {
+    width: 65ch;
+  }
+
+  .taskItem-wrapper {
+    width: 100%;
+  }
+}

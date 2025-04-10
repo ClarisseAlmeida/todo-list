@@ -1,0 +1,9 @@
+.taskList-list {
+  padding: 0;
+}
+
+.taskList-text {
+  text-align: center;
+  margin-top: 24px;
+  font-weight: 600;
+}

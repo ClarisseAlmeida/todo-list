@@ -1,0 +1,7 @@
+.taskFilter {
+  display: flex;
+
+  button:first-child {
+    margin-left: 0;
+  }
+}

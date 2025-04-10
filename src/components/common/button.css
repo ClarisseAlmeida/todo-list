@@ -1,0 +1,48 @@
+.button--submit {
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  height: 40px;
+  overflow: hidden;
+  padding: 0 16px;
+  background-color: #f60;
+  color: #fff;
+  border: 0;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.button--filter {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 16px;
+  color: #919191;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 7px 16px;
+  width: 100%;
+  margin-left: 12px;
+}
+
+.button--icon {
+  background: none;
+  border-color: transparent;
+  padding: 0;
+  margin-left: 12px;
+}
+
+.button--active {
+  background: #1b1b1b;
+  border-color: #1b1b1b;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  .button--submit {
+    width: 200px;
+    margin-top: 0;
+    margin-left: 16px;
+    height: 50px;
+  }
+}
